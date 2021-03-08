@@ -53,19 +53,19 @@ url = "linkedin.com"
 # services
 [[params.services]]
 icon = "bx bxl-dribbble"
-url = "/register"
+url = "register"
 title = "Register your business"
 description = "This makes sure your business gets taxed at the right rate, avoids penalties and protects your brand and ideas."
 
 [[params.services]]
 icon = "bx bx-file"
-url = "/compliance"
+url = "compliance"
 title = "Manage your compliances"
 description = "Ensure policies and procedures are followed in accordance to their set up."
 
 [[params.services]]
 icon = "bx bx-tachometer"
-url = "/closure"
+url = "closure"
 title = "Closure of Your Business"
 description = "Closing a business is not simply a matter of shutting the doors."
 
