@@ -39,4 +39,4 @@ jobs:
           destination_branch: 'main'
           user_email: 'gopakumar.r@live.com'
           user_name: 'gopkumr'
-          commit_message: 'Commit from Actions'
+          input_commit_message: 'Commit from Actions'
