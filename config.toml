@@ -59,18 +59,18 @@ description = "This makes sure your business gets taxed at the right rate, avoid
 
 [[params.services]]
 icon = "bx bx-file"
-url = "compliance"
+url = "Cosec/compliance"
 title = "Manage your compliances"
 description = "Ensure policies and procedures are followed in accordance to their set up."
 
 [[params.services]]
 icon = "bx bx-tachometer"
-url = "closure"
+url = "Cosec/closure"
 title = "Closure of Your Business"
 description = "Closing a business is not simply a matter of shutting the doors."
 
 [[params.services]]
 icon = "bx bx-layer"
-url = "/restructuring"
+url = "Cosec/restructuring"
 title = "Corporate Restructuring"
 description = "Corporate restructuring is a complex and exhaustive effort that is better served by a strong valuation of the component pieces."
