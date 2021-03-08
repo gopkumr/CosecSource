@@ -28,3 +28,15 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
+      - name: Pushes files to githubpages
+        uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
+        env:
+           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source_file: './public'
+          destination_repo: 'gopkumr/Cosec.'
+          destination_branch: 'main'
+          user_email: 'gopakumar.r@live.com'
+          user_name: 'gopkumr'
+          commit_message: 'Commit from Actions'
