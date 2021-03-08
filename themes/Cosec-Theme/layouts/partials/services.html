@@ -1,0 +1,27 @@
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Services</h2>
+            <p>CoSec provides a range of services for private, public, producer and not-for-profit companies, as well as one person entities, sole proprietorship, partnership and businesses looking to register.</p>
+          </div>
+
+          <div class="row">
+
+            {{ range .Site.Params.services }}
+
+            <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box">
+                <div class="icon"><i class="{{.icon}}"></i></div>
+                <h4><a href="{{.url}}">{{.title}}</a></h4>
+                <p>{{.description}}</p>
+              </div>
+            </div>
+
+            {{ end }}
+
+        </div>
+      </section><!-- End Services Section -->
+  

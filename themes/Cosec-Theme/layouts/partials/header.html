@@ -1,0 +1,22 @@
+{{ if .IsHome }}
+  <header id="header" class="fixed-top">
+{{ else }}
+  <header id="header" class="fixed-top header-inner-pages">
+{{ end }}
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="/">COSEC CONSULTANTS</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          {{ range site.Menus.main }}
+          
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+
+          {{ end }}
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->

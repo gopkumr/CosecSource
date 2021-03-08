@@ -1,0 +1,76 @@
+baseURL = "http://localhost"
+languageCode = "en-us"
+title = "Cosec Consultants"
+theme = "Cosec-Theme"
+
+# Navbar Menus
+[[menu.main]]
+name    = "Home"
+url     = "/"
+weight  = 1
+[[menu.main]]
+name    = "About"
+url     = "/#about"
+weight  = 2
+[[menu.main]]
+name    = "Services"
+url     = "/#services"
+weight  = 3
+[[menu.main]]
+name    = "Contact"
+url     = "/#contact"
+weight  = 4
+
+# Site Params
+[params]
+home = "Home"
+# contact form action
+contactFormAction = "#" # contact form works with https://formspree.io
+address1="Palava City"
+address2="Mumbai, MH 421204"
+phone="+91 5555 5555 55"
+email="info@cosecconsultants.com"
+googlemaplink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30148.979123503304!2d73.05553737674576!3d19.167999570238724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bfe8df4490a1%3A0x41629dfb5084dff1!2sPalava%20City%2C%20Maharashtra%20421204%2C%20India!5e0!3m2!1sen!2sau!4v1607904500489!5m2!1sen!2sau"
+aboutus1="CoSec Consultants, a team of professionals who has wide experience and knowledge in handling Legal, Secretarial, Accounting and Corporate affairs matters established with the vision of providing effective, reliable and cost effective consultancy services. "
+aboutus2="We are a team associated with Company Secretaries, Chartered Accountants, Advocates and MBA’s. The firm is endeavoring to add value to client operations by providing quality and timely services, ensuring adherence to statutory milestones."
+
+# social icon
+[[params.social]]
+name="facebook"
+icon="bx bxl-facebook"
+url = "fb.com"
+
+[[params.social]]
+name="twitter"
+icon="bx bxl-twitter"
+url = "twitter.com"
+
+[[params.social]]
+name="linkedin"
+icon="bx bxl-linkedin"
+url = "linkedin.com"
+
+# services
+[[params.services]]
+icon = "bx bxl-dribbble"
+url = "/register"
+title = "Register your business"
+description = "This makes sure your business gets taxed at the right rate, avoids penalties and protects your brand and ideas."
+
+[[params.services]]
+icon = "bx bx-file"
+url = "/compliance"
+title = "Manage your compliances"
+description = "Ensure policies and procedures are followed in accordance to their set up."
+
+[[params.services]]
+icon = "bx bx-tachometer"
+url = "/closure"
+title = "Closure of Your Business"
+description = "Closing a business is not simply a matter of shutting the doors."
+
+[[params.services]]
+icon = "bx bx-layer"
+url = "/restructuring"
+title = "Corporate Restructuring"
+description = "Corporate restructuring is a complex and exhaustive effort that is better served by a strong valuation of the component pieces."
