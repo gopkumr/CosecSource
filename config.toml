@@ -54,7 +54,7 @@ url = "linkedin.com"
 [[params.services]]
 icon = "bx bxl-dribbble"
 url = "register"
-title = "Register your business"
+title = "Register your businesses"
 description = "This makes sure your business gets taxed at the right rate, avoids penalties and protects your brand and ideas."
 
 [[params.services]]
